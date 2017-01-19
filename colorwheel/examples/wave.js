@@ -7,7 +7,6 @@ function startAnim(e) {
     e.target.interval = setInterval(function () {
         colors.cycle();
         e.target.style.backgroundColor = colors.toString();
-        console.log(colors.toString());
       }, 100);
     } else {
       clearInterval(e.target.interval);
